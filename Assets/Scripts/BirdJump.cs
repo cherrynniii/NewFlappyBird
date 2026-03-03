@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BirdJump : MonoBehaviour
 {
@@ -18,5 +19,10 @@ public class BirdJump : MonoBehaviour
         {
             rb.linearVelocity = Vector2.up * jumpForce;
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        SceneManager.LoadScene("GameOverScene");
     }
 }
