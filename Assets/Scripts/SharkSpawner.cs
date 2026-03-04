@@ -7,10 +7,11 @@ public class SharkSpawner : MonoBehaviour
 
     void Update()
     {
-        if (!bossSpawned && Score.score > Score.goalScore)
+        if (!bossSpawned && Score.score >= Score.goalScore)
         {
             bossSpawned = true;
             Invoke("SpawnShark", 3f); // 3초 뒤 실행
+            Debug.Log("Spawner Update");
         }
     }
 

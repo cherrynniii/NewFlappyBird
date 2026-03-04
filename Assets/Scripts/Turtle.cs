@@ -23,7 +23,7 @@ public class BirdJump : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Ground")) 
+        if (other.gameObject.CompareTag("Ground") || other.gameObject.CompareTag("Sky")) 
         {
             return;
         }
