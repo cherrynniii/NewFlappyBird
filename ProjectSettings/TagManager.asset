@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Shark
   - Obstacle
+  - Ground
+  - Sky
+  - RealObstacle
   layers:
   - Default
   - TransparentFX
