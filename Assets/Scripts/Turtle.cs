@@ -42,7 +42,11 @@ public class Turtle : MonoBehaviour
         {
             SceneManager.LoadScene("GameOverScene");
         }
-        else if (other.gameObject.CompareTag("SharkWeapon"))
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("SharkWeapon"))
         {
             SceneManager.LoadScene("GameOverScene");
         }

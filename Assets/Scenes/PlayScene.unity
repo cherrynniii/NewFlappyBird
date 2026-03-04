@@ -1213,6 +1213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 964565212}
   - component: {fileID: 964565211}
+  - component: {fileID: 964565213}
   m_Layer: 0
   m_Name: BGM
   m_TagString: Untagged
@@ -1332,6 +1333,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &964565213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964565210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 599fdd5dc2043e74b927d344a7144729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playClip: {fileID: 8300000, guid: 8a5bd5d44a44ad24fbc3481be4ca24a4, type: 3}
+  bossClip: {fileID: 8300000, guid: 976902fba391d1a4ca13880073627b34, type: 3}
+  playVolume: 0.35
+  bossVolume: 0.45
 --- !u!1 &1145335949
 GameObject:
   m_ObjectHideFlags: 0
