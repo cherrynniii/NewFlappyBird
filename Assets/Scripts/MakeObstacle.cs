@@ -9,7 +9,7 @@ public class MakeObstacle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Score.score > Score.goalScore)
+        if (Score.score >= Score.goalScore)
         {
             GameObject[] obs = GameObject.FindGameObjectsWithTag("Obstacle");
             foreach (GameObject o in obs)

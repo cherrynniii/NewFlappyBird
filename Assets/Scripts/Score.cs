@@ -17,7 +17,7 @@ public class Score : MonoBehaviour
 
     void Update()
     {
-        if (score > goalScore)
+        if (score >= goalScore)
         {
             scoreText.text = "BOSS!!!";
         }
