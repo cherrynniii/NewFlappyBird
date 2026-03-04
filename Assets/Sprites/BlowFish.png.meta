@@ -1,37 +1,28 @@
 fileFormatVersion: 2
-guid: 9be45a990969210498b74f5c13b22ddb
+guid: 8ebca6e0943d5d049b5055a616afeb40
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7352339073622421304
-    second: Title_0
+      213: 889937943868813690
+    second: BlowFish_0
   - first:
-      213: 578584420991164872
-    second: Title_1
+      213: -1906955355504203219
+    second: BlowFish_1
   - first:
-      213: -2586058674264470982
-    second: Title_2
+      213: 1191668228276718992
+    second: BlowFish_2
   - first:
-      213: -7455755055849233376
-    second: Title_3
+      213: -6745340937509423354
+    second: BlowFish_3
   - first:
-      213: -2920429353955323833
-    second: Title_4
+      213: -344890383763855448
+    second: BlowFish_4
   - first:
-      213: -8183731707024800371
-    second: Title_5
+      213: 5768742507522405525
+    second: BlowFish_5
   - first:
-      213: -2698452132489872219
-    second: Title_6
-  - first:
-      213: -4950144012914721142
-    second: Title_7
-  - first:
-      213: 3188867983059848843
-    second: Title_8
-  - first:
-      213: 7852301220439587256
-    second: Title_9
+      213: -550533976307502415
+    second: BlowFish_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -153,123 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Title_0
+      name: BlowFish_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 178
-        width: 127
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c0d280219e37f990800000000000000
-      internalID: -7352339073622421304
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Title_1
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 183
-        width: 119
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c1e0c5277b870800800000000000000
-      internalID: 578584420991164872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Title_2
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 181
-        width: 120
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a3a062856597c1cd0800000000000000
-      internalID: -2586058674264470982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Title_3
-      rect:
-        serializedVersion: 2
-        x: 434
-        y: 170
-        width: 167
-        height: 152
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 024a8cb6746d78890800000000000000
-      internalID: -7455755055849233376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Title_4
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 2
-        width: 107
-        height: 146
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7409ed5c9fc8877d0800000000000000
-      internalID: -2920429353955323833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Title_5
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 8
+        x: 262
+        y: 673
         width: 116
-        height: 141
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d858fa92f5b8d6e80800000000000000
-      internalID: -8183731707024800371
+      spriteID: a71317848d1b95c00800000000000000
+      internalID: 889937943868813690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_6
+      name: BlowFish_1
       rect:
         serializedVersion: 2
-        x: 230
-        y: 8
-        width: 110
-        height: 140
+        x: 372
+        y: 766
+        width: 36
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5acbb8f151c2d8ad0800000000000000
-      internalID: -2698452132489872219
+      spriteID: d2aa4a825322985e0800000000000000
+      internalID: -1906955355504203219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_7
+      name: BlowFish_2
       rect:
         serializedVersion: 2
-        x: 338
-        y: 9
-        width: 98
-        height: 140
+        x: 279
+        y: 88
+        width: 506
+        height: 641
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8ef03b4f3e8d4bb0800000000000000
-      internalID: -4950144012914721142
+      spriteID: 09d8d8c90f7a98010800000000000000
+      internalID: 1191668228276718992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_8
+      name: BlowFish_3
       rect:
         serializedVersion: 2
-        x: 442
-        y: 8
-        width: 90
-        height: 141
+        x: 391
+        y: 728
+        width: 26
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,20 +225,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8e06e50982214c20800000000000000
-      internalID: 3188867983059848843
+      spriteID: 607b9dad72cb362a0800000000000000
+      internalID: -6745340937509423354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_9
+      name: BlowFish_4
       rect:
         serializedVersion: 2
-        x: 538
-        y: 8
-        width: 98
-        height: 143
+        x: 224
+        y: 607
+        width: 73
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -366,8 +247,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b9faa15b5af8fc60800000000000000
-      internalID: 7852301220439587256
+      spriteID: 8a7ae45f504b63bf0800000000000000
+      internalID: -344890383763855448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlowFish_5
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 264
+        width: 41
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594b1991fb0be0050800000000000000
+      internalID: 5768742507522405525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlowFish_6
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 266
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b27861f34c1c58f0800000000000000
+      internalID: -550533976307502415
       vertices: []
       indices: 
       edges: []
@@ -386,16 +311,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Title_0: -7352339073622421304
-      Title_1: 578584420991164872
-      Title_2: -2586058674264470982
-      Title_3: -7455755055849233376
-      Title_4: -2920429353955323833
-      Title_5: -8183731707024800371
-      Title_6: -2698452132489872219
-      Title_7: -4950144012914721142
-      Title_8: 3188867983059848843
-      Title_9: 7852301220439587256
+      BlowFish_0: 889937943868813690
+      BlowFish_1: -1906955355504203219
+      BlowFish_2: 1191668228276718992
+      BlowFish_3: -6745340937509423354
+      BlowFish_4: -344890383763855448
+      BlowFish_5: 5768742507522405525
+      BlowFish_6: -550533976307502415
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

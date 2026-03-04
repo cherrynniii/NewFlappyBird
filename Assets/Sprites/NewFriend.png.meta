@@ -29,51 +29,6 @@ TextureImporter:
   - first:
       213: 7359263102597785063
     second: NewFriend_8
-  - first:
-      213: 615054395151190237
-    second: NewFriend_9
-  - first:
-      213: -8631593295024971205
-    second: NewFriend_10
-  - first:
-      213: 6815062714004453491
-    second: NewFriend_11
-  - first:
-      213: 1178093310294563078
-    second: NewFriend_12
-  - first:
-      213: -1728737869534061453
-    second: NewFriend_13
-  - first:
-      213: -5919024243135161097
-    second: NewFriend_14
-  - first:
-      213: -6264476783713706512
-    second: NewFriend_15
-  - first:
-      213: -7219693773949687133
-    second: NewFriend_16
-  - first:
-      213: 2577636759209578681
-    second: NewFriend_17
-  - first:
-      213: -8235686498735203678
-    second: NewFriend_18
-  - first:
-      213: -3666214991674690384
-    second: NewFriend_19
-  - first:
-      213: -8889871990023926374
-    second: NewFriend_20
-  - first:
-      213: -5114445343491820020
-    second: NewFriend_21
-  - first:
-      213: -8510676164071203929
-    second: NewFriend_22
-  - first:
-      213: 3486229059550068622
-    second: NewFriend_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -198,10 +153,10 @@ TextureImporter:
       name: NewFriend_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 0
-        width: 816
-        height: 1020
+        x: 31
+        y: 162
+        width: 201
+        height: 148
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +175,10 @@ TextureImporter:
       name: NewFriend_1
       rect:
         serializedVersion: 2
-        x: 494
-        y: 661
-        width: 723
-        height: 363
+        x: 233
+        y: 162
+        width: 111
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +197,10 @@ TextureImporter:
       name: NewFriend_2
       rect:
         serializedVersion: 2
-        x: 712
-        y: 729
-        width: 6
-        height: 10
+        x: 343
+        y: 146
+        width: 268
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +219,10 @@ TextureImporter:
       name: NewFriend_3
       rect:
         serializedVersion: 2
-        x: 920
-        y: 735
-        width: 6
-        height: 7
+        x: 2
+        y: 1
+        width: 103
+        height: 148
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +241,10 @@ TextureImporter:
       name: NewFriend_4
       rect:
         serializedVersion: 2
-        x: 905
-        y: 727
-        width: 6
-        height: 7
+        x: 104
+        y: 4
+        width: 109
+        height: 145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +263,10 @@ TextureImporter:
       name: NewFriend_5
       rect:
         serializedVersion: 2
-        x: 428
-        y: 712
-        width: 8
-        height: 8
+        x: 218
+        y: 4
+        width: 59
+        height: 145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +285,10 @@ TextureImporter:
       name: NewFriend_6
       rect:
         serializedVersion: 2
-        x: 737
-        y: 709
-        width: 8
-        height: 11
+        x: 278
+        y: 4
+        width: 101
+        height: 145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +307,10 @@ TextureImporter:
       name: NewFriend_7
       rect:
         serializedVersion: 2
-        x: 207
-        y: 634
-        width: 10
-        height: 6
+        x: 374
+        y: 2
+        width: 121
+        height: 145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +329,10 @@ TextureImporter:
       name: NewFriend_8
       rect:
         serializedVersion: 2
-        x: 773
-        y: 495
-        width: 479
-        height: 178
+        x: 498
+        y: 4
+        width: 122
+        height: 143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,336 +343,6 @@ TextureImporter:
       bones: []
       spriteID: 7e5eafefcca512660800000000000000
       internalID: 7359263102597785063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_9
-      rect:
-        serializedVersion: 2
-        x: 1228
-        y: 589
-        width: 88
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd88784b6bc198800800000000000000
-      internalID: 615054395151190237
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_10
-      rect:
-        serializedVersion: 2
-        x: 1329
-        y: 631
-        width: 42
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b32a46c51ab663880800000000000000
-      internalID: -8631593295024971205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_11
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 535
-        width: 111
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 378be3e3e67f39e50800000000000000
-      internalID: 6815062714004453491
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_12
-      rect:
-        serializedVersion: 2
-        x: 1259
-        y: 541
-        width: 120
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6091f58bf9d695010800000000000000
-      internalID: 1178093310294563078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_13
-      rect:
-        serializedVersion: 2
-        x: 1367
-        y: 570
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37c18a0211a4208e0800000000000000
-      internalID: -1728737869534061453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_14
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 527
-        width: 95
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7fcd00bafc66bdda0800000000000000
-      internalID: -5919024243135161097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_15
-      rect:
-        serializedVersion: 2
-        x: 1263
-        y: 528
-        width: 108
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0fd101b4e8b1019a0800000000000000
-      internalID: -6264476783713706512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_16
-      rect:
-        serializedVersion: 2
-        x: 189
-        y: 503
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3aa21a0a3ce7ecb90800000000000000
-      internalID: -7219693773949687133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_17
-      rect:
-        serializedVersion: 2
-        x: 371
-        y: 0
-        width: 1134
-        height: 525
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b01da0c9fa95c320800000000000000
-      internalID: 2577636759209578681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_18
-      rect:
-        serializedVersion: 2
-        x: 1253
-        y: 488
-        width: 76
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2aa586193c6f4bd80800000000000000
-      internalID: -8235686498735203678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_19
-      rect:
-        serializedVersion: 2
-        x: 1335
-        y: 514
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b4b407b3ecfe1dc0800000000000000
-      internalID: -3666214991674690384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_20
-      rect:
-        serializedVersion: 2
-        x: 1343
-        y: 515
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9dcdef8684d0a480800000000000000
-      internalID: -8889871990023926374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_21
-      rect:
-        serializedVersion: 2
-        x: 1366
-        y: 496
-        width: 48
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c06f40ebe07d509b0800000000000000
-      internalID: -5114445343491820020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_22
-      rect:
-        serializedVersion: 2
-        x: 1250
-        y: 475
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7abd62ace1104e980800000000000000
-      internalID: -8510676164071203929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NewFriend_23
-      rect:
-        serializedVersion: 2
-        x: 1274
-        y: 480
-        width: 52
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8f302cdbd2916030800000000000000
-      internalID: 3486229059550068622
       vertices: []
       indices: 
       edges: []
@@ -738,28 +363,13 @@ TextureImporter:
     nameFileIdTable:
       NewFriend_0: -8253199306165826463
       NewFriend_1: -7970444466112975475
-      NewFriend_10: -8631593295024971205
-      NewFriend_11: 6815062714004453491
-      NewFriend_12: 1178093310294563078
-      NewFriend_13: -1728737869534061453
-      NewFriend_14: -5919024243135161097
-      NewFriend_15: -6264476783713706512
-      NewFriend_16: -7219693773949687133
-      NewFriend_17: 2577636759209578681
-      NewFriend_18: -8235686498735203678
-      NewFriend_19: -3666214991674690384
       NewFriend_2: -8277057543471214899
-      NewFriend_20: -8889871990023926374
-      NewFriend_21: -5114445343491820020
-      NewFriend_22: -8510676164071203929
-      NewFriend_23: 3486229059550068622
       NewFriend_3: 2937631269576562225
       NewFriend_4: 99768681012845573
       NewFriend_5: 1452757361173958325
       NewFriend_6: -958695412910166105
       NewFriend_7: 1427277481917999734
       NewFriend_8: 7359263102597785063
-      NewFriend_9: 615054395151190237
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
