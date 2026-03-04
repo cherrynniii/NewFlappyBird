@@ -2,15 +2,17 @@ using UnityEngine;
 
 public class Shark : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public float targetX = 2.72f;
+    public float speed = 2f;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        Vector3 target = new Vector3(targetX, transform.position.y, transform.position.z);
+
+        transform.position = Vector3.MoveTowards(
+            transform.position,
+            target,
+            speed * Time.deltaTime
+        );
     }
 }
