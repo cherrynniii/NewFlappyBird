@@ -1,3 +1,4 @@
+using UnityEditor.Build.Reporting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,8 +15,14 @@ public class Shark : MonoBehaviour
     // 상어가 위 아래로 움직일 수 있는 범위
     private float minY = -2.55f;
     private float maxY = 3.88f;
-    
+
+    // 상어 맞을 때 나는 소리
+    public AudioSource audioSource;
+    public AudioClip hitSound;
+
     private bool isEntering = true;
+
+    private bool canHit = false; // 상어가 처음 등장할 때는 맞지 않도록 설정
 
     [SerializeField] private int hp;
 
@@ -41,6 +48,7 @@ public class Shark : MonoBehaviour
             if (Mathf.Abs(transform.position.x - targetX) < 0.05f)
             {
                 isEntering = false;
+                canHit = true; // 상어가 처음 등장한 후에 맞을 수 있도록 설정
             }
         }
         else
@@ -77,8 +85,10 @@ public class Shark : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (!canHit) return; // 상어가 처음 등장할 때는 맞지 않도록 설정
         if (other.gameObject.CompareTag("Bubble"))
         {
+            audioSource.PlayOneShot(hitSound, 0.6f);
             Bubble bubble = other.gameObject.GetComponent<Bubble>();
             hp -= bubble.damage;
             if (hp <= 0)
@@ -88,5 +98,10 @@ public class Shark : MonoBehaviour
             }
             Destroy(other.gameObject);  // 버블은 항상 닿으면 사라지게
         }
+    }
+
+    public int GetHP()
+    {
+        return hp;
     }
 }

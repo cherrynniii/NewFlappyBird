@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SharkSpawner : MonoBehaviour
 {
     public GameObject shark;
     bool bossSpawned = false;
+    public Slider bossHpSlider;
 
     private PlayBGM playBGM;
 
@@ -30,5 +32,6 @@ public class SharkSpawner : MonoBehaviour
     void SpawnShark()
     {
         Instantiate(shark, new Vector3(5.26f, 0f, 0f), Quaternion.identity);
+        bossHpSlider.gameObject.SetActive(true);
     }
 }
