@@ -1,10 +1,15 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BirdJump : MonoBehaviour
+public class Turtle : MonoBehaviour
 {
     Rigidbody2D rb;
     public float jumpForce;
+
+    [SerializeField] private GameObject weapon;
+    [SerializeField] private Transform shootTransform;
+    [SerializeField] private float shootInterval;    // 미사일 쏘는 주기
+    private float lastShootTime;    // 마지막으로 미사일을 쏜 시간
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,6 +24,11 @@ public class BirdJump : MonoBehaviour
         {
             rb.linearVelocity = Vector2.up * jumpForce;
         }
+
+        if (Score.score >= Score.goalScore)
+        {
+            Shoot();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -30,6 +40,15 @@ public class BirdJump : MonoBehaviour
         else if (other.gameObject.CompareTag("SharkWeapon"))
         {
             SceneManager.LoadScene("GameOverScene");
+        }
+    }
+
+    void Shoot()
+    {
+        if (Time.time - lastShootTime > shootInterval)
+        {
+            Instantiate(weapon, shootTransform.position, Quaternion.identity);
+            lastShootTime = Time.time;
         }
     }
 }

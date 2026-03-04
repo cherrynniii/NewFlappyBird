@@ -10,6 +10,7 @@ TagManager:
   - Sky
   - RealObstacle
   - SharkWeapon
+  - Bubble
   layers:
   - Default
   - TransparentFX
