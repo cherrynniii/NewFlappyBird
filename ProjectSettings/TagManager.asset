@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Sky
   - RealObstacle
+  - SharkWeapon
   layers:
   - Default
   - TransparentFX

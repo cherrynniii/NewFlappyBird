@@ -27,5 +27,9 @@ public class BirdJump : MonoBehaviour
         {
             SceneManager.LoadScene("GameOverScene");
         }
+        else if (other.gameObject.CompareTag("SharkWeapon"))
+        {
+            SceneManager.LoadScene("GameOverScene");
+        }
     }
 }
