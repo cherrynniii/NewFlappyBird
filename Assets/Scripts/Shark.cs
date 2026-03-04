@@ -16,6 +16,8 @@ public class Shark : MonoBehaviour
     
     private bool isEntering = true;
 
+    [SerializeField] private int hp;
+
     Vector3 target;
 
     private void Start()
@@ -70,5 +72,19 @@ public class Shark : MonoBehaviour
     {
         float randomY = Random.Range(minY, maxY);
         target = new Vector3(targetX, randomY, transform.position.z);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Bubble"))
+        {
+            Bubble bubble = other.gameObject.GetComponent<Bubble>();
+            hp -= bubble.damage;
+            if (hp <= 0)
+            {
+                Destroy(gameObject);
+            }
+            Destroy(other.gameObject);  // 버블은 항상 닿으면 사라지게
+        }
     }
 }
