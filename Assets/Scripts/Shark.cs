@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Shark : MonoBehaviour
 {
@@ -83,6 +84,7 @@ public class Shark : MonoBehaviour
             if (hp <= 0)
             {
                 Destroy(gameObject);
+                SceneManager.LoadScene("GameClearScene");
             }
             Destroy(other.gameObject);  // 버블은 항상 닿으면 사라지게
         }
