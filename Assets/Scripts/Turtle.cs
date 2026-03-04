@@ -58,7 +58,7 @@ public class Turtle : MonoBehaviour
         {
             Instantiate(weapon, shootTransform.position, Quaternion.identity);
             lastShootTime = Time.time;
-            audioSource.PlayOneShot(bubbleSound, 0.3f);
+            audioSource.PlayOneShot(bubbleSound, 0.6f);
         }
     }
 }
