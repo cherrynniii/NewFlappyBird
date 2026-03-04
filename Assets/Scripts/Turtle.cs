@@ -11,6 +11,10 @@ public class Turtle : MonoBehaviour
     [SerializeField] private float shootInterval;    // 미사일 쏘는 주기
     private float lastShootTime;    // 마지막으로 미사일을 쏜 시간
 
+    public AudioSource audioSource;
+    public AudioClip jumpSound;
+    public AudioClip bubbleSound;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,6 +27,7 @@ public class Turtle : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             rb.linearVelocity = Vector2.up * jumpForce;
+            audioSource.PlayOneShot(jumpSound);
         }
 
         if (Score.score >= Score.goalScore)
@@ -49,6 +54,7 @@ public class Turtle : MonoBehaviour
         {
             Instantiate(weapon, shootTransform.position, Quaternion.identity);
             lastShootTime = Time.time;
+            audioSource.PlayOneShot(bubbleSound, 0.3f);
         }
     }
 }
