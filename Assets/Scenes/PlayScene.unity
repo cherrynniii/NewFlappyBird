@@ -528,6 +528,7 @@ MonoBehaviour:
   audioSource: {fileID: 375097143}
   jumpSound: {fileID: 8300000, guid: 2508818d9fe680c4e8f554b0631498a7, type: 3}
   bubbleSound: {fileID: 8300000, guid: 4b6fb8a7a66d4e84b9d46da4078c524c, type: 3}
+  electricSound: {fileID: 8300000, guid: 99323706dbba65f478d28b2df0f9d2f9, type: 3}
 --- !u!82 &375097143
 AudioSource:
   m_ObjectHideFlags: 0

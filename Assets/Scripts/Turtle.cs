@@ -16,6 +16,7 @@ public class Turtle : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip jumpSound;
     public AudioClip bubbleSound;
+    public AudioClip electricSound;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -56,6 +57,7 @@ public class Turtle : MonoBehaviour
         if (other.gameObject.CompareTag("Battery"))
         {
             Destroy(other.gameObject); // πË≈Õ∏Æ ∏‘±‚
+            audioSource.PlayOneShot(electricSound, 2f);
             StartCoroutine(JumpDebuff());
         }
     }
