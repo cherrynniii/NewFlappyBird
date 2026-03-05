@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 5e56b8963a9ab424ba7d7b87f93310d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2429500010581174707
+    second: WaterCannon_0
+  - first:
+      213: 7377704191455602184
+    second: WaterCannon_1
+  - first:
+      213: -646229464105859238
+    second: WaterCannon_2
+  - first:
+      213: 1765211874245476290
+    second: WaterCannon_3
+  - first:
+      213: 4116132612457845328
+    second: WaterCannon_4
+  - first:
+      213: -2569703709322074957
+    second: WaterCannon_5
+  - first:
+      213: -4998353873466790905
+    second: WaterCannon_6
+  - first:
+      213: 3145399878953663449
+    second: WaterCannon_7
+  - first:
+      213: 3688609418935447643
+    second: WaterCannon_8
+  - first:
+      213: 6616528763892980430
+    second: WaterCannon_9
+  - first:
+      213: 7922649609887715039
+    second: WaterCannon_10
+  - first:
+      213: 8622678099187982406
+    second: WaterCannon_11
+  - first:
+      213: 254011514276543688
+    second: WaterCannon_12
+  - first:
+      213: -423122776534435731
+    second: WaterCannon_13
+  - first:
+      213: 2703906118945234456
+    second: WaterCannon_14
+  - first:
+      213: -3464335689372887410
+    second: WaterCannon_15
+  - first:
+      213: -4938664215167641689
+    second: WaterCannon_16
+  - first:
+      213: -525695520687244746
+    second: WaterCannon_17
+  - first:
+      213: -466327337361684064
+    second: WaterCannon_18
+  - first:
+      213: -2172492614702427173
+    second: WaterCannon_19
+  - first:
+      213: 6691160554263359082
+    second: WaterCannon_20
+  - first:
+      213: 2717019517123307023
+    second: WaterCannon_21
+  - first:
+      213: 5808284907686541178
+    second: WaterCannon_22
+  - first:
+      213: 2040110017773246288
+    second: WaterCannon_23
+  - first:
+      213: 3281057083870995151
+    second: WaterCannon_24
+  - first:
+      213: -741407061757873907
+    second: WaterCannon_25
+  - first:
+      213: 4649899749815233335
+    second: WaterCannon_26
+  - first:
+      213: 2977572362315268949
+    second: WaterCannon_27
+  - first:
+      213: -1941045112707119097
+    second: WaterCannon_28
+  - first:
+      213: -550538486128264632
+    second: WaterCannon_29
+  - first:
+      213: 5409343760701631316
+    second: WaterCannon_30
+  - first:
+      213: -6006067585134156711
+    second: WaterCannon_31
+  - first:
+      213: 7343537584886299494
+    second: WaterCannon_32
+  - first:
+      213: -4506309450464124713
+    second: WaterCannon_33
+  - first:
+      213: -2473163118497900895
+    second: WaterCannon_34
+  - first:
+      213: -5701539926808876658
+    second: WaterCannon_35
+  - first:
+      213: 308737086905272476
+    second: WaterCannon_36
+  - first:
+      213: -7839574219496040439
+    second: WaterCannon_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WaterCannon_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 638
+        width: 305
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d465087cc9ea84ed0800000000000000
+      internalID: -2429500010581174707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 385
+        width: 236
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8062f959fded26660800000000000000
+      internalID: 7377704191455602184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 619
+        width: 278
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57449ce9b12807f0800000000000000
+      internalID: -646229464105859238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_3
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 628
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cff3bdd8da4f7810800000000000000
+      internalID: 1765211874245476290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_4
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 509
+        width: 312
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05253f58dc07f1930800000000000000
+      internalID: 4116132612457845328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_5
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 331
+        width: 471
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4aadb5714965cd0800000000000000
+      internalID: -2569703709322074957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_6
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 623
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c605e62a742aab0800000000000000
+      internalID: -4998353873466790905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_7
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 631
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbf69d5684b6ab20800000000000000
+      internalID: 3145399878953663449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_8
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 617
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50bec239b2903330800000000000000
+      internalID: 3688609418935447643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 395
+        width: 303
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecadef9dad1a2db50800000000000000
+      internalID: 6616528763892980430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_10
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 622
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde8e3d18d7e2fd60800000000000000
+      internalID: 7922649609887715039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_11
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 626
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640e3aadb08e9a770800000000000000
+      internalID: 8622678099187982406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_12
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 612
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccff4d502e668300800000000000000
+      internalID: 254011514276543688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 591
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68b9489314c02af0800000000000000
+      internalID: -423122776534435731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_14
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 577
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e5cbd0a44368520800000000000000
+      internalID: 2703906118945234456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_15
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 575
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86983c9b053cefc0800000000000000
+      internalID: -3464335689372887410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_16
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 563
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7dffdff07567bb0800000000000000
+      internalID: -4938664215167641689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_17
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 567
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a3c6d85ba54b8f0800000000000000
+      internalID: -525695520687244746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_18
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 537
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9c083e1c54789f0800000000000000
+      internalID: -466327337361684064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_19
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 535
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3908f2a71c9d1e0800000000000000
+      internalID: -2172492614702427173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_20
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 537
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e29f3a217cbdc50800000000000000
+      internalID: 6691160554263359082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 5
+        width: 420
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0620fdfadac4b520800000000000000
+      internalID: 2717019517123307023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_22
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1
+        width: 318
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a773be4995c2b9050800000000000000
+      internalID: 5808284907686541178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 353
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0571710904def4c10800000000000000
+      internalID: 2040110017773246288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_24
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1
+        width: 292
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2e8e3b808a88d20800000000000000
+      internalID: 3281057083870995151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_25
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 344
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01b4f9943ef5b5f0800000000000000
+      internalID: -741407061757873907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_26
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 311
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b2aecaf23c78040800000000000000
+      internalID: 4649899749815233335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_27
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 299
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55382d4a946725920800000000000000
+      internalID: 2977572362315268949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_28
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 2
+        width: 406
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708851c01c50015e0800000000000000
+      internalID: -1941045112707119097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_29
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 315
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ab42be9281c58f0800000000000000
+      internalID: -550538486128264632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_30
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 284
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ba89c8d79d11b40800000000000000
+      internalID: 5409343760701631316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_31
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 11
+        width: 28
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95427135a5926aca0800000000000000
+      internalID: -6006067585134156711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_32
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 279
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bb0e5968c79e560800000000000000
+      internalID: 7343537584886299494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_33
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 290
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0a9152e6f5671c0800000000000000
+      internalID: -4506309450464124713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_34
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 273
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6d5524f3f8dadd0800000000000000
+      internalID: -2473163118497900895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_35
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 263
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89a9d505af00e0b0800000000000000
+      internalID: -5701539926808876658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_36
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 258
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c984af9aebad84400800000000000000
+      internalID: 308737086905272476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterCannon_37
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 256
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908d0a088cc343390800000000000000
+      internalID: -7839574219496040439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WaterCannon_0: -2429500010581174707
+      WaterCannon_1: 7377704191455602184
+      WaterCannon_10: 7922649609887715039
+      WaterCannon_11: 8622678099187982406
+      WaterCannon_12: 254011514276543688
+      WaterCannon_13: -423122776534435731
+      WaterCannon_14: 2703906118945234456
+      WaterCannon_15: -3464335689372887410
+      WaterCannon_16: -4938664215167641689
+      WaterCannon_17: -525695520687244746
+      WaterCannon_18: -466327337361684064
+      WaterCannon_19: -2172492614702427173
+      WaterCannon_2: -646229464105859238
+      WaterCannon_20: 6691160554263359082
+      WaterCannon_21: 2717019517123307023
+      WaterCannon_22: 5808284907686541178
+      WaterCannon_23: 2040110017773246288
+      WaterCannon_24: 3281057083870995151
+      WaterCannon_25: -741407061757873907
+      WaterCannon_26: 4649899749815233335
+      WaterCannon_27: 2977572362315268949
+      WaterCannon_28: -1941045112707119097
+      WaterCannon_29: -550538486128264632
+      WaterCannon_3: 1765211874245476290
+      WaterCannon_30: 5409343760701631316
+      WaterCannon_31: -6006067585134156711
+      WaterCannon_32: 7343537584886299494
+      WaterCannon_33: -4506309450464124713
+      WaterCannon_34: -2473163118497900895
+      WaterCannon_35: -5701539926808876658
+      WaterCannon_36: 308737086905272476
+      WaterCannon_37: -7839574219496040439
+      WaterCannon_4: 4116132612457845328
+      WaterCannon_5: -2569703709322074957
+      WaterCannon_6: -4998353873466790905
+      WaterCannon_7: 3145399878953663449
+      WaterCannon_8: 3688609418935447643
+      WaterCannon_9: 6616528763892980430
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

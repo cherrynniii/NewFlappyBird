@@ -1,6 +1,8 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Turtle : MonoBehaviour
 {
@@ -18,6 +20,8 @@ public class Turtle : MonoBehaviour
     public AudioClip bubbleSound;
     public AudioClip electricSound;
 
+    public Button waterGunButton;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -30,6 +34,8 @@ public class Turtle : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
             rb.linearVelocity = Vector2.up * jumpForce;
             audioSource.PlayOneShot(jumpSound);
         }
@@ -40,25 +46,26 @@ public class Turtle : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("RealObstacle")) 
-        {
-            SceneManager.LoadScene("GameOverScene");
-        }
-    }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("SharkWeapon"))
         {
             SceneManager.LoadScene("GameOverScene");
         }
-        if (other.gameObject.CompareTag("Battery"))
+        else if (other.gameObject.CompareTag("Battery"))
         {
             Destroy(other.gameObject); // πË≈Õ∏Æ ∏‘±‚
             audioSource.PlayOneShot(electricSound, 2f);
             StartCoroutine(JumpDebuff());
+        }
+        else if (other.gameObject.CompareTag("WaterGun"))
+        {
+            waterGunButton.gameObject.SetActive(true);
+            Destroy(other.gameObject);
+        }
+        else if (other.gameObject.CompareTag("RealObstacle"))
+        {
+            SceneManager.LoadScene("GameOverScene");
         }
     }
 

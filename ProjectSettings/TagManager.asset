@@ -12,6 +12,7 @@ TagManager:
   - SharkWeapon
   - Bubble
   - Battery
+  - WaterGun
   layers:
   - Default
   - TransparentFX
