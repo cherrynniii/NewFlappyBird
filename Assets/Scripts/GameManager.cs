@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
 
         // 스테이지 레벨 받기
         stageId = PlayerPrefs.GetInt("StageId", 1);
-        Debug.Log("Current Stage ID: " + stageId);
     }
 
     public int GetStageId()
