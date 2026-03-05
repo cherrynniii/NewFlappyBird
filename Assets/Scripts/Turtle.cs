@@ -5,6 +5,7 @@ using System.Collections;
 public class Turtle : MonoBehaviour
 {
     Rigidbody2D rb;
+    SpriteRenderer sr;  // 거북이 색 변화
     private float jumpForce = 3.5f;
 
     [SerializeField] private GameObject weapon;
@@ -20,6 +21,7 @@ public class Turtle : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -70,8 +72,31 @@ public class Turtle : MonoBehaviour
 
     IEnumerator JumpDebuff()
     {
-        jumpForce = 2.5f;   // 점프 힘 감소
+        jumpForce = 2.5f;
+
+        // 서서히 어두워짐
+        yield return StartCoroutine(FadeColor(new Color(0.6f, 0.6f, 0.6f, 1f), 0.4f));
+
         yield return new WaitForSeconds(3f);
-        jumpForce = 3.5f; // 원래 값 복구
+
+        jumpForce = 3.5f;
+
+        // 서서히 밝아짐
+        yield return StartCoroutine(FadeColor(Color.white, 0.4f));
+    }
+
+    IEnumerator FadeColor(Color targetColor, float duration)
+    {
+        Color startColor = sr.color;
+        float time = 0f;
+
+        while (time < duration)
+        {
+            sr.color = Color.Lerp(startColor, targetColor, time / duration);
+            time += Time.deltaTime;
+            yield return null;
+        }
+
+        sr.color = targetColor;
     }
 }

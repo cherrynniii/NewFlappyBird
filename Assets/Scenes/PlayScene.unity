@@ -522,7 +522,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4213a32ee0830c246a01a60e2371de78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 3.5
   weapon: {fileID: 6161668031323324278, guid: e94c290cdddf2ce47806354b1e79a716, type: 3}
   shootTransform: {fileID: 1206860279}
   shootInterval: 0.5
@@ -2077,7 +2076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   batteryPrefab: {fileID: 538605043329104637, guid: c79b9749dd5489f4d86cba251f523ced, type: 3}
-  spawnInterval: 5
+  checkBoxSize: {x: 0.4, y: 0.4}
 --- !u!1 &2066930354
 GameObject:
   m_ObjectHideFlags: 0
