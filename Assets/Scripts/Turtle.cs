@@ -46,6 +46,14 @@ public class Turtle : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("RealObstacle"))
+        {
+            SceneManager.LoadScene("GameOverScene");
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("SharkWeapon"))
@@ -62,10 +70,6 @@ public class Turtle : MonoBehaviour
         {
             waterGunButton.gameObject.SetActive(true);
             Destroy(other.gameObject);
-        }
-        else if (other.gameObject.CompareTag("RealObstacle"))
-        {
-            SceneManager.LoadScene("GameOverScene");
         }
     }
 

@@ -8,7 +8,7 @@ public class Shark : MonoBehaviour
 
     [SerializeField] private GameObject weapon;
     [SerializeField] private Transform shootTransform;
-    [SerializeField] private float shootInterval;    // 미사일 쏘는 주기
+    private float shootInterval;    // 미사일 쏘는 주기
     private float lastShootTime;    // 마지막으로 미사일을 쏜 시간
 
     // 상어가 위 아래로 움직일 수 있는 범위
@@ -30,14 +30,17 @@ public class Shark : MonoBehaviour
     private void Start()
     {
         SetNewTarget();
+        int stageId = GameManager.instance.GetStageId();
 
-        if (GameManager.instance.GetStageId() == 1)
+        if (stageId == 1)
         {
             hp = 15;
+            shootInterval = 2f;
         }
-        else if (GameManager.instance.GetStageId() == 2)
+        else if (stageId == 2)
         {
             hp = 30;
+            shootInterval = 1.5f;
         }
     }
 
