@@ -11,13 +11,21 @@ public class Score : MonoBehaviour
 
     void Awake()
     {
-        scoreText = GetComponent<TMP_Text>(); // Text (TMP) 컴포넌트 잡기
+        scoreText = GetComponent<TMP_Text>();
         goalScore = goalScoreInput;
     }
 
     void Start()
     {
         score = 0;
+        if (GameManager.instance.GetStageId() == 1)
+        {
+            goalScore = 10;
+        }
+        else if (GameManager.instance.GetStageId() == 2)
+        {
+            goalScore = 20;
+        }
     }
 
     void Update()
