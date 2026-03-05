@@ -24,13 +24,22 @@ public class Shark : MonoBehaviour
 
     private bool canHit = false; // 상어가 처음 등장할 때는 맞지 않도록 설정
 
-    [SerializeField] private int hp;
+    private int hp;
 
     Vector3 target;
 
     private void Start()
     {
         SetNewTarget();
+
+        if (GameManager.instance.GetStageId() == 1)
+        {
+            hp = 10;
+        }
+        else if (GameManager.instance.GetStageId() == 2)
+        {
+            hp = 20;
+        }
     }
 
     void Update()

@@ -3,7 +3,7 @@ using TMPro;
 
 public class Score : MonoBehaviour
 {
-    public static int score = 0;
+    public static int score;
     TMP_Text scoreText;
     public static int goalScore;
 
@@ -13,6 +13,11 @@ public class Score : MonoBehaviour
     {
         scoreText = GetComponent<TMP_Text>(); // Text (TMP) 컴포넌트 잡기
         goalScore = goalScoreInput;
+    }
+
+    void Start()
+    {
+        score = 0;
     }
 
     void Update()
