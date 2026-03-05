@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Turtle : MonoBehaviour
 {
     Rigidbody2D rb;
-    public float jumpForce;
+    private float jumpForce = 3.5f;
 
     [SerializeField] private GameObject weapon;
     [SerializeField] private Transform shootTransform;
@@ -50,6 +51,11 @@ public class Turtle : MonoBehaviour
         {
             SceneManager.LoadScene("GameOverScene");
         }
+        if (other.gameObject.CompareTag("Battery"))
+        {
+            Destroy(other.gameObject); // 배터리 먹기
+            StartCoroutine(JumpDebuff());
+        }
     }
 
     void Shoot()
@@ -60,5 +66,12 @@ public class Turtle : MonoBehaviour
             lastShootTime = Time.time;
             audioSource.PlayOneShot(bubbleSound, 0.6f);
         }
+    }
+
+    IEnumerator JumpDebuff()
+    {
+        jumpForce = 2.5f;   // 점프 힘 감소
+        yield return new WaitForSeconds(3f);
+        jumpForce = 3.5f; // 원래 값 복구
     }
 }
