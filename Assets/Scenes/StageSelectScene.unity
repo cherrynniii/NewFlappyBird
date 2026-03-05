@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 87243894}
   - component: {fileID: 87243896}
   - component: {fileID: 87243895}
+  - component: {fileID: 87243897}
   m_Layer: 5
   m_Name: SeaHorse
   m_TagString: Untagged
@@ -222,6 +223,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87243893}
   m_CullTransparentMesh: 1
+--- !u!114 &87243897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87243893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee31f4ff12dd634296c06f6d304ae9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageId: 2
+  icon: {fileID: 451068401}
+  button: {fileID: 87243895}
+  lockSprite: {fileID: 21300000, guid: 56b3373a94f2f834a8c9f35b423a1349, type: 3}
 --- !u!1 &207196222
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +647,7 @@ GameObject:
   - component: {fileID: 437060141}
   - component: {fileID: 437060144}
   - component: {fileID: 437060142}
+  - component: {fileID: 437060145}
   m_Layer: 5
   m_Name: Octopus
   m_TagString: Untagged
@@ -722,6 +740,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437060140}
   m_CullTransparentMesh: 1
+--- !u!114 &437060145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437060140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee31f4ff12dd634296c06f6d304ae9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageId: 1
+  icon: {fileID: 305360783}
+  button: {fileID: 437060142}
+  lockSprite: {fileID: 21300000, guid: 56b3373a94f2f834a8c9f35b423a1349, type: 3}
 --- !u!1 &451068399
 GameObject:
   m_ObjectHideFlags: 0

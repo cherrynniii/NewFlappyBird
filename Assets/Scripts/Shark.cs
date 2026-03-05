@@ -102,6 +102,15 @@ public class Shark : MonoBehaviour
             hp -= bubble.damage;
             if (hp <= 0)
             {
+                int stageId = GameManager.instance.GetStageId();
+                int cleared = PlayerPrefs.GetInt("ClearedStage", 0);
+
+                if (stageId > cleared)
+                {
+                    PlayerPrefs.SetInt("ClearedStage", stageId);
+                    PlayerPrefs.Save();
+                }
+
                 Destroy(gameObject);
                 SceneManager.LoadScene("GameClearScene");
             }
