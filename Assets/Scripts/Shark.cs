@@ -1,4 +1,3 @@
-using UnityEditor.Build.Reporting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -34,11 +33,11 @@ public class Shark : MonoBehaviour
 
         if (GameManager.instance.GetStageId() == 1)
         {
-            hp = 10;
+            hp = 15;
         }
         else if (GameManager.instance.GetStageId() == 2)
         {
-            hp = 20;
+            hp = 30;
         }
     }
 
@@ -100,21 +99,28 @@ public class Shark : MonoBehaviour
             audioSource.PlayOneShot(hitSound, 0.6f);
             Bubble bubble = other.gameObject.GetComponent<Bubble>();
             hp -= bubble.damage;
-            if (hp <= 0)
-            {
-                int stageId = GameManager.instance.GetStageId();
-                int cleared = PlayerPrefs.GetInt("ClearedStage", 0);
-
-                if (stageId > cleared)
-                {
-                    PlayerPrefs.SetInt("ClearedStage", stageId);
-                    PlayerPrefs.Save();
-                }
-
-                Destroy(gameObject);
-                SceneManager.LoadScene("GameClearScene");
-            }
             Destroy(other.gameObject);  // 버블은 항상 닿으면 사라지게
+        }
+        else if (other.gameObject.CompareTag("WaterGunShoot"))
+        {
+            audioSource.PlayOneShot(hitSound, 0.6f);
+            hp -= 3;
+
+        }
+
+        if (hp <= 0)
+        {
+            int stageId = GameManager.instance.GetStageId();
+            int cleared = PlayerPrefs.GetInt("ClearedStage", 0);
+
+            if (stageId > cleared)
+            {
+                PlayerPrefs.SetInt("ClearedStage", stageId);
+                PlayerPrefs.Save();
+            }
+
+            Destroy(gameObject);
+            SceneManager.LoadScene("GameClearScene");
         }
     }
 

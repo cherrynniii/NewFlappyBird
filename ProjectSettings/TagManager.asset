@@ -13,6 +13,7 @@ TagManager:
   - Bubble
   - Battery
   - WaterGun
+  - WaterGunShoot
   layers:
   - Default
   - TransparentFX

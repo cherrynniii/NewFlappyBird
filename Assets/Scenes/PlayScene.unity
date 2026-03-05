@@ -557,7 +557,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 65694937}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1609884261}
+        m_TargetAssemblyTypeName: WaterGunAttackSpawner, Assembly-CSharp
+        m_MethodName: SpawnWaterGun
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &288234155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2162,6 +2174,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hpBar: {fileID: 1376484438}
+--- !u!1 &1609884260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1609884262}
+  - component: {fileID: 1609884261}
+  m_Layer: 0
+  m_Name: WaterGunAttackSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1609884261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609884260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 562e6b1a8b76cf14cbb0c2efd255383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterGunAttackPrefab: {fileID: 8161899710462754384, guid: 9b53839fb4de5fd4db8ff662e2eac2f1, type: 3}
+  spawnPoint: {fileID: 1206860279}
+  button: {fileID: 288234154}
+--- !u!4 &1609884262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609884260}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.78048956, y: -0.44784424, z: -0.023436535}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1888014843
 GameObject:
   m_ObjectHideFlags: 0
@@ -2554,3 +2613,4 @@ SceneRoots:
   - {fileID: 1178683909}
   - {fileID: 1965523050}
   - {fileID: 17918950}
+  - {fileID: 1609884262}
