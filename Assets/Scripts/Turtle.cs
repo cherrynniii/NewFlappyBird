@@ -10,6 +10,9 @@ public class Turtle : MonoBehaviour
     SpriteRenderer sr;  // 거북이 색 변화
     private float jumpForce = 3.5f;
 
+    private int life = 3;
+    public event System.Action<int> OnLifeChanged;
+
     [SerializeField] private GameObject weapon;
     [SerializeField] private Transform shootTransform;
     [SerializeField] private float shootInterval;    // 미사일 쏘는 주기
@@ -19,14 +22,21 @@ public class Turtle : MonoBehaviour
     public AudioClip jumpSound;
     public AudioClip bubbleSound;
     public AudioClip electricSound;
+    public AudioClip damageSound;
 
     public Button waterGunButton;
+
+    private bool invincible = false; // 무적 상태 여부
+    private float invincibleTime = 0.8f;
+    private Coroutine invincibleCo;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        life = 3;
+        OnLifeChanged?.Invoke(life);
     }
 
     // Update is called once per frame
@@ -46,19 +56,17 @@ public class Turtle : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("RealObstacle"))
         {
-            SceneManager.LoadScene("GameOverScene");
+            audioSource.PlayOneShot(damageSound);
+            TakeDamage();
         }
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("SharkWeapon"))
+        else if (other.gameObject.CompareTag("SharkWeapon"))
         {
-            SceneManager.LoadScene("GameOverScene");
+            audioSource.PlayOneShot(damageSound);
+            TakeDamage();
         }
         else if (other.gameObject.CompareTag("Battery"))
         {
@@ -111,5 +119,45 @@ public class Turtle : MonoBehaviour
         }
 
         sr.color = targetColor;
+    }
+
+    private void TakeDamage()
+    {
+        if (invincible) return;   // 무적이면 무시
+
+        life--;
+        OnLifeChanged?.Invoke(life);
+
+        if (life <= 0)
+        {
+            SceneManager.LoadScene("GameOverScene");
+            return;
+        }
+
+        // 무적 시작
+        if (invincibleCo != null) StopCoroutine(invincibleCo);
+        invincibleCo = StartCoroutine(InvincibleCoroutine(invincibleTime));
+    }
+
+    private IEnumerator InvincibleCoroutine(float t)
+    {
+        invincible = true;
+
+        // (선택) 무적 표시: 살짝 투명하게
+        Color c = sr.color;
+        sr.color = new Color(c.r, c.g, c.b, 0.6f);
+
+        yield return new WaitForSeconds(t);
+
+        // 원상복구
+        c = sr.color;
+        sr.color = new Color(c.r, c.g, c.b, 1f);
+
+        invincible = false;
+    }
+
+    public int GetLife()
+    {
+        return life;
     }
 }
