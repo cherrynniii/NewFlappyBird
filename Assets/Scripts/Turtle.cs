@@ -30,11 +30,14 @@ public class Turtle : MonoBehaviour
     private float invincibleTime = 0.8f;
     private Coroutine invincibleCo;
 
+    private CameraManager camera;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        camera = FindFirstObjectByType<CameraManager>();
         life = 3;
         OnLifeChanged?.Invoke(life);
     }
@@ -62,11 +65,13 @@ public class Turtle : MonoBehaviour
         {
             audioSource.PlayOneShot(damageSound);
             TakeDamage();
+            camera.ShakeCamera();
         }
         else if (other.gameObject.CompareTag("SharkWeapon"))
         {
             audioSource.PlayOneShot(damageSound);
             TakeDamage();
+            camera.ShakeCamera();
         }
         else if (other.gameObject.CompareTag("Battery"))
         {

@@ -18,14 +18,7 @@ public class Score : MonoBehaviour
     void Start()
     {
         score = 0;
-        if (GameManager.instance.GetStageId() == 1)
-        {
-            goalScore = 10;
-        }
-        else if (GameManager.instance.GetStageId() == 2)
-        {
-            goalScore = 20;
-        }
+        goalScore = 10;
     }
 
     void Update()
