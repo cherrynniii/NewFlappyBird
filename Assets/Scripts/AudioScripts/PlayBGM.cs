@@ -19,7 +19,6 @@ public class PlayBGM : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
         {
-            Debug.LogError("[PlayBGM] AudioSource가 필요해요. 같은 오브젝트에 AudioSource를 추가하세요.");
             return;
         }
 
